@@ -1,0 +1,38 @@
+{
+  "upstream": "https://github.com/tinnel123666888/OmniJev",
+  "upstream_checkout_commit": "908cbcea9ba715ade17066ae5d077e81f89c6c5c",
+  "copied_sources": {
+    "mso/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mso/branch.py": "13595edac2edde05a82a7a89479b01c8ac3acd20fd6a1f1ea60bed9b44d3ca18",
+    "mso/fast_kernels.py": "60c6a8d6b6dcf3f2eeaccd24c93a550655bb23858e1d4a215bd1244f3c89dd6c",
+    "mso/head.py": "7f3674537d616afe177be04f1842c3479ad4f8945644d5915fde43d533b13eb4",
+    "mso/hybrid_prefix_trie.py": "7e41a4b367011521a5c58f3f9c9d16d54b4374c5b0681eba672145ba26aa11ea",
+    "mso/infer.py": "b7927d33273b268717bd79d06a01b18ae796717f7366094068b2a6b52227a561",
+    "mso/panels.py": "45cba683f3587b6f413f025a087fe3e2165465fc02a0b02e2b8f5b7413466cda",
+    "mso/phase_component_skip.py": "8491d3aca3824be3988f1d722218648d2a732c5c51b05428c0c93042aeb64b6d",
+    "mso/phase_ffn.py": "d30e5049e361850f5e7dc30a24d8a8243d1108d92b223ff3d42ef26c5eae400d",
+    "mso/records.py": "f88194cedc0888dd8bbbad9f4a5d20aba5ae70b6e18f88074dd15b725a620675",
+    "mso/terminal_joint.py": "7a29e160c0973ed82c8d43c015de05371359f030b1f0486659ec92dfb5b3de67",
+    "mso/terminal_state_factorial.py": "71654491536f94074d7f5d22629597aeb435372a899014c93fa53c4c0c60ff07",
+    "mso/v04.py": "6179e64cd17193d3e909c20078f203a57319d5a505a77848656e457c90fb9c64"
+  },
+  "distribution_notes": {
+    "mso/infer.py": "Added an attribution/modification notice to the copied core source.",
+    "mso/fast_kernels.py": "Added an attribution/modification notice to the copied core source."
+  },
+  "distributed_core_sha256": {
+    "mso/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mso/branch.py": "13595edac2edde05a82a7a89479b01c8ac3acd20fd6a1f1ea60bed9b44d3ca18",
+    "mso/fast_kernels.py": "a1766fcc54a0691facfffd4efdc842c4112134c24baa3983c45452b433c680c2",
+    "mso/head.py": "7f3674537d616afe177be04f1842c3479ad4f8945644d5915fde43d533b13eb4",
+    "mso/hybrid_prefix_trie.py": "7e41a4b367011521a5c58f3f9c9d16d54b4374c5b0681eba672145ba26aa11ea",
+    "mso/infer.py": "82a42dc98ccf1eea7e6c3ac5a6b930ad7c4514543d7f791b1816a71c92aa62bd",
+    "mso/panels.py": "45cba683f3587b6f413f025a087fe3e2165465fc02a0b02e2b8f5b7413466cda",
+    "mso/phase_component_skip.py": "8491d3aca3824be3988f1d722218648d2a732c5c51b05428c0c93042aeb64b6d",
+    "mso/phase_ffn.py": "d30e5049e361850f5e7dc30a24d8a8243d1108d92b223ff3d42ef26c5eae400d",
+    "mso/records.py": "f88194cedc0888dd8bbbad9f4a5d20aba5ae70b6e18f88074dd15b725a620675",
+    "mso/terminal_joint.py": "7a29e160c0973ed82c8d43c015de05371359f030b1f0486659ec92dfb5b3de67",
+    "mso/terminal_state_factorial.py": "71654491536f94074d7f5d22629597aeb435372a899014c93fa53c4c0c60ff07",
+    "mso/v04.py": "6179e64cd17193d3e909c20078f203a57319d5a505a77848656e457c90fb9c64"
+  }
+}

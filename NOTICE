@@ -1,0 +1,20 @@
+FastJEV inference source distribution
+
+This distribution includes inference code from OmniJev.
+Upstream project: https://github.com/tinnel123666888/OmniJev
+Copyright 2026 Beijing Zhongguancun Academy, Institute of Automation of the
+Chinese Academy of Sciences, and Zevo. The upstream LICENSE is retained.
+
+FastJEV additions provide candidate prefix sharing, shared recurrent initial
+states, omission of unused leaf recurrent caches, and candidate block pruning.
+The mso/infer.py and mso/fast_kernels.py files include local changes made during
+the FastJEV experiments. The fastjev package extracts the main experiment's
+input/readout protocols and adds a portable, local-checkpoint inference entry.
+
+mso/terminal_state_factorial.py contains code derived from the
+flash-linear-attention project. Its MIT license and attribution are retained
+in that file. https://github.com/fla-org/flash-linear-attention
+
+No dataset examples, pretrained weights, evaluation predictions, or paper
+figures are distributed. Checkpoint manifests contain public repository
+revisions and checksums only. Model and dataset licenses apply separately.

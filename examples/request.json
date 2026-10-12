@@ -1,0 +1,13 @@
+{
+  "record_id": "user_image",
+  "images": ["your_image.jpg"],
+  "question": {
+    "type": "choice",
+    "instructions": "Which object is visible?",
+    "options": [
+      {"key": "A", "text": "a cup"},
+      {"key": "B", "text": "a chair"},
+      {"key": "C", "text": "a bicycle"}
+    ]
+  }
+}

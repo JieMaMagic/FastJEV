@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastjev-inference"
+version = "0.1.0"
+description = "FastJEV main-experiment inference for OmniJev v1.1"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = [
+    "torch==2.7.1", "torchvision==0.22.1", "triton==3.3.1",
+    "transformers==5.17.0", "peft==0.21.0", "accelerate==1.15.0",
+    "safetensors==0.8.0", "fla-core==0.5.2", "pillow==12.3.0", "numpy==1.26.4",
+]
+
+[project.scripts]
+fastjev = "fastjev.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["fastjev*", "mso*"]
+
+[tool.setuptools.package-data]
+fastjev = ["configs/*.json"]

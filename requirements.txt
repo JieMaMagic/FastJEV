@@ -1,0 +1,10 @@
+torch==2.7.1
+torchvision==0.22.1
+triton==3.3.1
+transformers==5.17.0
+peft==0.21.0
+accelerate==1.15.0
+safetensors==0.8.0
+fla-core==0.5.2
+pillow==12.3.0
+numpy==1.26.4
