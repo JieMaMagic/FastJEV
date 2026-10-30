@@ -161,6 +161,9 @@ See the [inference reference](docs/inference.md) for binary questions, interleav
 image/text inputs, the LIBERO request schema, checkpoint verification, and the
 Python API.
 
+## Friendly Links
+[Turing Post - Exploring System One AI Models Beyond Jev: 15 Outstanding Models](https://www.turingpost.com/p/exploring-system-one-ai-models-beyond-jev-15-outstanding-models)
+
 ## Citation
 
 If you find this work useful, please cite:
